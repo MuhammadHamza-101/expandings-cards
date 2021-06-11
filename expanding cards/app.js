@@ -4,11 +4,11 @@ let p = document.querySelectorAll(".pic");
 p.forEach( p =>{
 
     p.addEventListener('click',()=>{
-        console.log(123)
+      
 
-        removeActiveClasses()
+        removeActiveClasses();
 
-        p.classList.add('active')
+        p.classList.add('active');
        
     })
 
@@ -17,7 +17,9 @@ p.forEach( p =>{
 function removeActiveClasses(){ 
 
 p . forEach ( p => {
-p.classList.remove('active')
+
+p.classList.remove('active');
+
 })
 
 }
